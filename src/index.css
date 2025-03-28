@@ -6,6 +6,10 @@
 
 /* Navbar Component */
 
+.hamburger-icon{
+  display: none;
+}
+
 .navbar-hero{
   display: flex;
   justify-content: space-between;
@@ -30,3 +34,33 @@
 .navbar-list-item a{
   text-decoration: none;
 }
+
+/* Phone Breakpoints */
+@media only screen and (max-width: 600px){
+  .navbar{
+    display: none;
+  }
+
+  .hamburger-icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: block;
+  }
+}
+
+/* Tablet Breakpoints */
+@media only screen and (min-width: 600px){
+
+}
+
+/* Landscape Breakpoints */
+@media only screen and (min-width: 768px){
+
+}
+
+/* Laptop Breakpoints */
+@media only screen and (min-width: 992px) {
+  
+}
+
