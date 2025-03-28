@@ -11,7 +11,7 @@ const Navbar = () => {
                 <li className="navbar-list-item"><a href="#">Shop</a></li>
                 <li className="navbar-list-item"><a href="#">Log In</a></li>
             </ul>
-        <a href="#"><FaCartShopping/></a>
+            <a href="#"><FaCartShopping/></a>
         </nav>
     </section>
   )
