@@ -12,11 +12,19 @@
   --blue: #0295db;
 }
 
-/* Header Componenet */
+body{
+  background: var(--very-lite-gray)
+}
+
+/* Components */
+
+/* Header Component */
 
 .header-container{
   display:flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 40px;
 }
 
 .navbar-list{
@@ -29,5 +37,33 @@
 }
 
 .navbar-list-item a{
+  color: var(--dark-gray);
   text-decoration: none;
+}
+
+.navbar-list-item a:hover{
+  font-weight: bolder;
+  color: var(--blue);
+}
+
+/* HeroHP Conponent */
+
+.hero-container, .about-container{
+  display: flex;
+  gap: 50px;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* AboutHP Component */
+
+.
+
+/* Pages */
+
+/* Homepage */
+
+.homepage-container{
+  
 }

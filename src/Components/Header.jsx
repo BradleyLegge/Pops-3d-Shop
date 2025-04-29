@@ -20,7 +20,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div>
+      <div className="user-info">
         <h2>SHOPPING CART</h2>
         <h2>LOGIN</h2>
       </div>
