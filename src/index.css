@@ -12,6 +12,10 @@
   --blue: #0295db;
 }
 
+/* section {
+  border: 1px solid black;
+} */
+
 body {
   background: var(--very-lite-gray);
 }
@@ -46,10 +50,29 @@ li a:hover {
   gap: 40px;
 }
 
+.user-info {
+  display: flex;
+  gap: 40px;
+}
+
+.cart-icon,
+.user-icon {
+  color: var(--dark-gray);
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+.cart-icon:hover,
+.user-icon:hover {
+  color: var(--blue);
+}
+
 /* HeroHP Conponent */
 
 .hero-container,
 .about-container {
+  padding: 60px 0;
   display: flex;
   gap: 50px;
   width: 80%;
@@ -69,10 +92,22 @@ li a:hover {
   padding: 40px;
 }
 
-.social-link-item,
+.social-link-item a,
 .nav-link-item a,
 .legal-link-item a {
   color: var(--lite-gray);
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.facebook-icon,
+.twitter-icon {
+  width: 25px;
+  height: 25px;
 }
 
 /* Pages */

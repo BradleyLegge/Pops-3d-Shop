@@ -1,4 +1,6 @@
 import React from "react";
+import { FaCartShopping } from "react-icons/fa6";
+import { FaUser } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -21,8 +23,12 @@ const Header = () => {
         </ul>
       </nav>
       <div className="user-info">
-        <h2>SHOPPING CART</h2>
-        <h2>LOGIN</h2>
+        <a href="#" className="cart-link">
+          <FaCartShopping className="cart-icon" />
+        </a>
+        <a href="#" className="user-link">
+          <FaUser className="user-icon" />
+        </a>
       </div>
     </section>
   );

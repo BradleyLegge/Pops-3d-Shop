@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -6,8 +8,16 @@ const Footer = () => {
       <div className="footer">
         <h1>LOGO</h1>
         <ul className="social-links">
-          <li className="social-link-item">FACEBOOK</li>
-          <li className="social-link-item">TWITTER</li>
+          <li className="social-link-item">
+            <a href="">
+              <FaFacebook className="facebook-icon" />
+            </a>
+          </li>
+          <li className="social-link-item">
+            <a href="#">
+              <FaTwitter className="twitter-icon" />
+            </a>
+          </li>
         </ul>
       </div>
       <ul className="nav-links">
