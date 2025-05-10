@@ -71,7 +71,7 @@ li a:hover {
 /* HeroHP Conponent */
 
 .hero-container,
-.about-container {
+.about-hp-container {
   padding: 60px 0;
   display: flex;
   gap: 50px;
@@ -81,6 +81,21 @@ li a:hover {
 }
 
 /* AboutHP Component */
+
+.about-hp-btn,
+.hero-btn {
+  cursor: pointer;
+  background: var(--blue);
+  color: var(--very-lite-gray);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.about-hp-btn:hover,
+.hero-btn:hover {
+  background: var(--dark-gray);
+}
 
 /* Footer Component */
 
@@ -110,9 +125,8 @@ li a:hover {
   height: 25px;
 }
 
+/* About Component */
+
+
+
 /* Pages */
-
-/* Homepage */
-
-.homepage-container {
-}
