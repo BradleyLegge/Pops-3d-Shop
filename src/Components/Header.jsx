@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
 
@@ -9,13 +10,13 @@ const Header = () => {
       <nav className="navbar">
         <ul className="navbar-list">
           <li className="navbar-list-item">
-            <a href="">HOME</a>
+            <NavLink to="/">HOME</NavLink>
           </li>
           <li className="navbar-list-item">
-            <a href="">ABOUT</a>
+            <NavLink to="/aboutpage">ABOUT</NavLink>
           </li>
           <li className="navbar-list-item">
-            <a href="">CONTACT US</a>
+            <NavLink to="#">CONTACT US</NavLink>
           </li>
           <li className="navbar-list-item">
             <a href="">SHOP</a>

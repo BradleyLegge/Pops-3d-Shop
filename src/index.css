@@ -71,7 +71,8 @@ li a:hover {
 /* HeroHP Conponent */
 
 .hero-container,
-.about-hp-container {
+.about-hp-container,
+.about-container {
   padding: 60px 0;
   display: flex;
   gap: 50px;
@@ -127,6 +128,7 @@ li a:hover {
 
 /* About Component */
 
-
-
+.cow-1-img{
+  width: 50%;
+}
 /* Pages */

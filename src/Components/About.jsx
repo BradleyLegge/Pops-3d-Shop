@@ -4,7 +4,7 @@ import cow from "../assets/cow1.jpg";
 const About = () => {
   return (
     <section className="about-container">
-      <img src={cow} alt="" />
+      <img class="cow-1-img" src={cow} alt="" />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
         quod explicabo veniam aspernatur. Eligendi quisquam id nemo quibusdam
