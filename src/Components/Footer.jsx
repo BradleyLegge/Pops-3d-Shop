@@ -1,12 +1,13 @@
 import React from "react";
 import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa6";
+import dad from "../assets/dadlogoBest1.png";
 
 const Footer = () => {
   return (
     <section className="footer-section">
       <div className="footer">
-        <h1>LOGO</h1>
+        <img src={dad} alt="" />
         <ul className="social-links">
           <li className="social-link-item">
             <a href="">

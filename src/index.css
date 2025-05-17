@@ -128,7 +128,52 @@ li a:hover {
 
 /* About Component */
 
-.cow-1-img{
+.cow-1-img {
   width: 50%;
+}
+
+/* Contact Component */
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+  height: 25px;
+}
+
+.contact-header {
+  margin: 20px 0;
+}
+
+.contact-container {
+  width: 60%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+}
+
+.form-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.name-container {
+  display: flex;
+  gap: 50px;
+}
+
+.first-name-container,
+.last-name-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.submit-btn {
+  margin-top: 20px;
 }
 /* Pages */

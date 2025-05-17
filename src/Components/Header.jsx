@@ -2,11 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
+import dad from "../assets/dadLogoBest1.png";
 
 const Header = () => {
   return (
     <section className="header-container">
-      <h1>LOGO</h1>
+      <img src={dad} alt="" />
       <nav className="navbar">
         <ul className="navbar-list">
           <li className="navbar-list-item">
@@ -16,7 +17,7 @@ const Header = () => {
             <NavLink to="/aboutpage">ABOUT</NavLink>
           </li>
           <li className="navbar-list-item">
-            <NavLink to="#">CONTACT US</NavLink>
+            <NavLink to="/contactpage">CONTACT US</NavLink>
           </li>
           <li className="navbar-list-item">
             <a href="">SHOP</a>
