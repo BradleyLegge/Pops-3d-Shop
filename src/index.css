@@ -94,7 +94,8 @@ li a:hover {
 }
 
 .about-hp-btn:hover,
-.hero-btn:hover {
+.hero-btn:hover,
+.submit-btn:hover{
   background: var(--dark-gray);
 }
 
@@ -140,7 +141,16 @@ label {
 
 input {
   margin-bottom: 15px;
-  height: 25px;
+  height: 30px;
+  padding: 5px;
+}
+
+textarea{
+  padding: 5px;
+}
+
+.ast{
+  color: var(--blue);
 }
 
 .contact-header {
@@ -149,7 +159,7 @@ input {
 
 .contact-container {
   width: 60%;
-  margin: 0 auto;
+  margin: 60px auto;
   background: white;
   border-radius: 5px;
 }
@@ -175,5 +185,12 @@ input {
 
 .submit-btn {
   margin-top: 20px;
+  cursor: pointer;
+  background: var(--blue);
+  color: var(--very-lite-gray);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
 }
 /* Pages */
