@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  outline: none;
 }
 
 :root {
@@ -10,6 +11,7 @@
   --very-lite-gray: #e0e5e9;
   --lite-gray: #9d9da1;
   --blue: #0295db;
+  --red: hsl(0, 66%, 54%);
 }
 
 /* section {
@@ -95,7 +97,7 @@ li a:hover {
 
 .about-hp-btn:hover,
 .hero-btn:hover,
-.submit-btn:hover{
+.submit-btn:hover {
   background: var(--dark-gray);
 }
 
@@ -145,12 +147,22 @@ input {
   padding: 5px;
 }
 
-textarea{
+textarea {
   padding: 5px;
 }
 
-.ast{
+.ast {
   color: var(--blue);
+}
+
+.first-name,
+.last-name,
+.email,
+.phone-number,
+.request {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-header {
@@ -193,4 +205,15 @@ textarea{
   border: none;
   height: 40px;
 }
+
+/* Invalid Inputs */
+
+.input-error-border {
+  border: 2px solid var(--red);
+}
+
+.input-error {
+  color: var(--red);
+}
+
 /* Pages */
