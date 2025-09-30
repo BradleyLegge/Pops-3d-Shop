@@ -1,18 +1,23 @@
 import React from "react";
 import p1 from "../assets/3dPrinter400.jpg";
+import bugsThumb from "../assets/bugsThumb.jpg";
+// import daffy from "../assets/daffyThumb.jpg";
+// import dilbert from "../assets/dilbertThumb.jpg";
+// import egg from "../assets/eggThumb.jpg";
+// import eggOpen from "../assets/eggOpenThumb.jpg";
+// import et from "../assets/etThumb.jpg";
+// import mario from "../assets/marioThumb.jpg";
 
 const HeroHP = () => {
   return (
     <section className="hero-container">
-      <img className="hero-img" src={p1} alt="" />
-      <div className="hero-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
-          molestiae. Molestiae velit, deserunt laborum, dolorem est accusamus
-          numquam ut voluptas laudantium nobis rerum alias consequuntur?
-        </p>
-        <button className="hero-btn">SHOP</button>
-      </div>
+      <img src={bugsThumb} alt="" />
+      {/* <img src={daffy} alt="" />
+      <img src={dilbert} alt="" />
+      <img src={egg} alt="" />
+      <img src={eggOpen} alt="" />
+      <img src={et} alt="" />
+      <img src={mario} alt="" /> */}
     </section>
   );
 };
